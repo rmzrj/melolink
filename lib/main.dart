@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final appRouter = getIt<AppRouter>();
     return ProviderInit(
+      
       child: MaterialApp.router(
         builder: (context, child) {
           return MediaQuery(
